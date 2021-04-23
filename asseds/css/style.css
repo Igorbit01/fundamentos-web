@@ -2,3 +2,108 @@
 .center {
     text-align: center;
 }
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+        .cort{
+            background-color: gray;
+            border:1px solid black;
+            border-style: none;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px greenyellow
+        }
+        body {
+            background-image: url("../img/fund.jpg");
+            background-repeat:no-repeat;  
+            background-size: cover;
+            background-position: center center;
+        }
+        #menu li {
+            display: inline;
+            padding: 15px;
+            font-size: 25;
+        }
+
+        #menu li a {
+            text-decoration: none;
+            color: rgb(53, 51, 51);
+        }
+        #menu li a :hover {
+            color: rgb(235, 88, 88);
+        }
+    .marg{
+        margin: 25px 50px 75px;
+        
+    }
+    .font{
+        text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-size: 25px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(161, 232, 245, 0.336);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: rgba(97, 99, 91, 0.829);
+      }
+      
+      .active {
+        background-color: #a3adca;
+      }
+    /* EStilos da Página destaques.html*/
+
+    .container{
+        display: flex;
+        flex-flow: row;
+        justify-content: center center;
+        align-items: center center;}
+
+        .marg{
+            margin: 25px 50px 75px;
+            
+        }
+
+        .cort{
+            background-color: rgba(59, 50, 43, 0.226);
+            border:1px solid black;
+            border-style: none;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px greenyellow}
+
+        .padrao{
+            border-radius: 8px;
+            max-width:60%;
+             height: auto;
+             font-size: 25px;
+        }
+        .centeer{
+            text-align: center;
+            border-radius: 8px;
+            max-width:20%;
+            float: center;
+        }
+        .font{
+            
+  font-size: 22px;
+        }
